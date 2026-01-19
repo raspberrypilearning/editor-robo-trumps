@@ -1,3 +1,9 @@
+<h2 class="c-project-heading--task">What you will make</h2>
+--- task ---
+Create a robot card game where you compare stats to win.
+--- /task ---
+
+
 ## Display a random robot
 
 Let’s add code so that you get a random robot when you type Random instead of a robot name.

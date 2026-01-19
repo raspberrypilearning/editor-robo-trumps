@@ -1,65 +1,50 @@
-## Read robot data from a file
+<h2 class="c-project-heading--task">Open robot data file</h2>
+--- task ---
+Open the file that stores data for different robots.
+--- /task ---
 
-It's often useful to be able to read information from a file. You can then change the data in the file without having to change your code. 
+--- task ---
+Click the file icon in the project files window. Select **cards.txt** to open it in a new tab.
+--- /task ---
 
-+ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>. 
+Each robot has four pieces of data:
 
-+ Your starter project includes a `cards.txt` file which contains data about robots. 
+- name  
+- intelligence rating  
+- battery life  
+- image file name  
 
-  Click on `cards.txt` to see the data:
+The items are separated by commas in the file.
 
-  ![screenshot](images/robotrumps-cards.png)
+![screenshot](images/robotrumps-cards.png)
 
-  Each line has data about a robot. The data items are separated by commas. 
+--- task ---
+Copy the code below to open the file in your project.
+--- /task ---
 
-  Each line contains the following information:
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 4-5
+---
+from turtle import *
+from random import choice
 
-  name, intelligence rating, how long the battery lasts, image file name
+file = open('cards.txt', 'r')
+print(file.read())  # Print to test
+--- /code ---
+--- task ---
+**Test:** Run the code. You should see the cards data in the **Text output** tab.
+--- /task ---
 
-+ Let's read the data in from the file so that you can use it. 
-
-  The first step is to open the `cards.txt` file in your script:
-  
-  ![screenshot](images/robotrumps-open.png)
-  
-+ Now you can read the data from the file:
-
-  ![screenshot](images/robotrumps-read.png)
-  
-+ You should always close a file when you have finished with it:
-
-  ![screenshot](images/robotrumps-close.png)
-
-+ That gives us the file as one string, you need to break it down into the individual pieces of data. 
-
-  First, you can split the file into a list of lines:
-
-  ![screenshot](images/robotrumps-lines.png)
-  
-  Look carefully at the output. There are three items in the list, each one is a line from the file. 
-  
-+ Now you can loop over those lines one at a time
-
-  ![screenshot](images/robotrumps-loop.png)
-  
-+ Instead of printing out the lines, read them in to variables:
-
-  ![screenshot](images/robotrumps-variables.png)
-  
-+ You want to be able to use this data later to look up the values for a particular robot. Let's use the robot's name as a key to a dictionary. 
-
-  Add a `robots` dictionary:
-
-  ![screenshot](images/robotrumps-dict.png)
-  
-+ Now let's add an entry to the robots dictionary for each robot. 
-
-  The name is the key and the value is a list of data for that robot. 
-
-  Add the highlighted code:
- 
-  ![screenshot](images/robotrumps-data.png)
-  
-  You can remove `print robots` when you have tested your script. 
-
+</div>
+<div class="c-project-output">
+<pre>rainbow, 10, 34, rainbow.png
+space, 13, 28, space.png
+bird, 6, 4, bird.png</pre>
+</div>
 
