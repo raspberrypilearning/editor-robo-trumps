@@ -1,4 +1,4 @@
 name: "Robo trumps starter"
-identifier: 'editor-starter-robo-trumps'
+identifier: 'editor-robo-trumps-starter'
 type: 'python'
 build: true
