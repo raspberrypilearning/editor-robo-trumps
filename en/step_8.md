@@ -3,18 +3,33 @@
 Create a robot card game where you compare stats to win.
 --- /task ---
 
-step 7 
-display the text
-+ Now add code to get the turtle to print the name of the robot:
 
-  ![screenshot](images/robotrumps-name.png)
+STEP 9
+
++ And finally, let's add the robot image to complete the display. 
+
+  You'll need to add a line to register the image when you read the data from `cards.txt`:
   
-+ Try changing the `style` variable until you are happy with the text. 
+  ![screenshot](images/robotrumps-register.png)
+     
++ And add code to position and stamp the image:
+
+  ![screenshot](images/robotrumps-image.png)
   
-  Instead of `Arial` you could try: `Courier`, `Times` or `Verdana`. 
-  
-  Change `14` to a different number to change the size of the font. 
-  
-  You can change `bold` to `normal` or `italic`. 
-  
-  
++ Test your code by entering one robot and then another and you'll see that they display on top of each other!
+
+ADD THIS TO above just before go to ()
+
+  You need to clear the screen before displaying a robot: 
+
+  ![screenshot](images/robotrumps-clear.png)
+
+
+
+Now you can display the robot data in a more interesting way. 
+
+Let’s display a robot trump card with an image and data for its intelligence and usefulness. 
+
+When you've completed this step you'll be able to display robots like this:
+
+![screenshot](images/robotrumps-example.png)

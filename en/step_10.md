@@ -4,32 +4,24 @@ Create a robot card game where you compare stats to win.
 --- /task ---
 
 
-STEP 9
+--- challenge ---
 
-+ And finally, let's add the robot image to complete the display. 
+## Challenge: Add more stats to the robots
 
-  You'll need to add a line to register the image when you read the data from `cards.txt`:
-  
-  ![screenshot](images/robotrumps-register.png)
-     
-+ And add code to position and stamp the image:
+Can you think of more stats to add to the robots. You could add ‘speed’ or ‘usefulness’ or come up with your own ideas. 
 
-  ![screenshot](images/robotrumps-image.png)
-  
-+ Test your code by entering one robot and then another and you'll see that they display on top of each other!
+You’ll need to:
 
-ADD THIS TO above just before go to ()
++ Add data to the file for each new category 
++ Add the new category to the code that read in the data
++ Write the new category out when you display a trump card
 
-  You need to clear the screen before displaying a robot: 
+You could even add a colour and show the stats for robots in their own color. 
 
-  ![screenshot](images/robotrumps-clear.png)
+Hint: Use `color('red')` to change the turtle's text to red before writing. 
 
+Example: 
 
+![screenshot](images/robotrumps-jet.png) 
 
-Now you can display the robot data in a more interesting way. 
-
-Let’s display a robot trump card with an image and data for its intelligence and usefulness. 
-
-When you've completed this step you'll be able to display robots like this:
-
-![screenshot](images/robotrumps-example.png)
+--- /challenge ---

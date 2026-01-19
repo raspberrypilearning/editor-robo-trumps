@@ -17,16 +17,21 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-- title: Introduction
-- title: Read robot data from a file
-- title: Display the data
+- title: Step 1
+- title: Step 2
+- title: Step 3
   completion:
   - engaged
-- title: 'Challenge: Add more robots'
-- title: 'Challenge: Add more stats to the robots'
-- title: Display a random robot
+- title: Step 4
+- title: Step 5
+- title: Step 6
+- title: Step 7
+- title: Step 8
+- title: Step 9
+- title: Step 10
+- title: Step 11
   completion:
   - internal
-- title: 'Challenge: Play robot trumps with a friend'
+- title: Step 12
   completion:
   - external

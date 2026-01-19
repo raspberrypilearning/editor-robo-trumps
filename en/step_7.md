@@ -4,12 +4,26 @@ Create a robot card game where you compare stats to win.
 --- /task ---
 
 
- step 6 
- dispaly the visuals
+   STEP 8
++ Oh dear! The stats are all on top of each other. You'll need to add code to move the turtle:
 
-+ Now you're going to use the Python turtle to display the robot data. 
+   ![screenshot](images/robotrumps-stats-3.png)
 
-  Import the turtle library at the top of your script and setup the screen and turtle:
+DOT THIS (2 steps) IN this steo???
+  - sort out variabe names???
++ Store the list of stats for the robot in a variable instead of printing them out:
 
-  ![screenshot](images/robotrumps-turtle.png)
+  ![screenshot](images/robotrumps-stats.png)
+  
++ You can now access the stats for the robot as items in a list:
 
+  + `stats[0]` is intelligence
+  + `stats[1]` is battery
+  + `stats[2]` is the image name
+  
+  Do this as part of step above all in one 
+
+  Add code to display the intelligence and battery stats:
+  
+  ![screenshot](images/robotrumps-stats-2.png)
+   

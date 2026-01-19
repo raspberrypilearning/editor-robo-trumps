@@ -3,25 +3,14 @@
 Create a robot card game where you compare stats to win.
 --- /task ---
 
-
 --- challenge ---
 
-## Challenge: Add more stats to the robots
+## Challenge: Play robot trumps with a friend
 
-Can you think of more stats to add to the robots. You could add ‘speed’ or ‘usefulness’ or come up with your own ideas. 
+Share your project with a friend and play Robotrumps. Both use the same project so that it's fair! Player one requests a random robot and then chooses a category. Player 2 then requests a random robot and you check who has the highest score for the chosen category, then swap over. 
 
-You’ll need to:
+The game works best if you both play with the same deck of cards. Share a link to your trinket project with a friend so you can both use the same deck. 
 
-+ Add data to the file for each new category 
-+ Add the new category to the code that read in the data
-+ Write the new category out when you display a trump card
-
-You could even add a colour and show the stats for robots in their own color. 
-
-Hint: Use `color('red')` to change the turtle's text to red before writing. 
-
-Example: 
-
-![screenshot](images/robotrumps-jet.png) 
+![screenshot](images/robotrumps-play.png)
 
 --- /challenge ---

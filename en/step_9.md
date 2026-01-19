@@ -3,27 +3,16 @@
 Create a robot card game where you compare stats to win.
 --- /task ---
 
+--- challenge ---
 
-   STEP 8
-+ Oh dear! The stats are all on top of each other. You'll need to add code to move the turtle:
+## Challenge: Add more robots
 
-   ![screenshot](images/robotrumps-stats-3.png)
+Can you add data about more robots to `cards.txt`. 
 
-DOT THIS (2 steps) IN this steo???
-  - sort out variabe names???
-+ Store the list of stats for the robot in a variable instead of printing them out:
+Click on the images button to see the robot images that you can use. 
 
-  ![screenshot](images/robotrumps-stats.png)
-  
-+ You can now access the stats for the robot as items in a list:
+You get to decide how much battery and intelligence they have.
 
-  + `stats[0]` is intelligence
-  + `stats[1]` is battery
-  + `stats[2]` is the image name
-  
-  Do this as part of step above all in one 
+![screenshot](images/robotrumps-yellow.png)
 
-  Add code to display the intelligence and battery stats:
-  
-  ![screenshot](images/robotrumps-stats-2.png)
-   
+--- /challenge ---
