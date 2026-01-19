@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">What you will make</h2>
+<h2 class="c-project-heading--task">display the text</h2>
 --- task ---
 Create a robot card game where you compare stats to win.
 --- /task ---
