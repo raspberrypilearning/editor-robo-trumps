@@ -1,0 +1,4 @@
+name: "Robo trumps complete"
+identifier: 'complete-robo-trumps'
+type: 'python'
+build: true

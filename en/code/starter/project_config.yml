@@ -1,0 +1,4 @@
+name: "Robo trumps starter"
+identifier: 'starter-robo-trumps'
+type: 'python'
+build: true
