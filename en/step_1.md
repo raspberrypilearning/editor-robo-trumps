@@ -1,13 +1,13 @@
-## What you will make
+<h2 class="c-project-heading--task">What you will make</h2>
+--- task ---
+Create robot trump card--- /task ---
 
-Create robot trump cards!
+
+
 
 ### Play ▶️
 
---- task ---
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
 Click on the <strong>Run</strong> button.
 
 Type in the name of a robot from the list and tap <kbd>Enter</kbd> to play the game.
@@ -19,4 +19,4 @@ Type in the name of a robot from the list and tap <kbd>Enter</kbd> to play the g
 </div>
 </div>
 
---- /task ---
+
