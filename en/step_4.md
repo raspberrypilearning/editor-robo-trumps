@@ -1,9 +1,11 @@
 <h2 class="c-project-heading--task">Pick a robot</h2>
 --- task ---
-Ask the player to type the name of a robot.
+Ask players to choose a robot.
 --- /task ---
 
-Add the `while` loop below to get player input. If the robot that the player types in is in the dictionary then lookup its data. If the robot doesn't exist then give an error.
+Add a `while` loop below to get player input. 
+
+ 
 
 Before you start, comment out the `print` line.
 
@@ -21,10 +23,10 @@ line_highlights: 13, 15-16
 while True:
     robot = input("Choose a robot: ")
 
-    if robot in robots:
+    if robot in robots:  # If the robot is in the dictionary then run this code
         print(robot)
     else:
-        print("Robot doesn't exist!")
+        print("Robot doesn't exist!")  # If the robot doesn't exist then give an error
 --- /code ---
 --- task ---
 **Test:** Run the code. You should see a question in the **Text output** tab.

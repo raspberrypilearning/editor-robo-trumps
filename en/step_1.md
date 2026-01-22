@@ -8,9 +8,7 @@ Create a robot card game where you compare stats to win.
 </div>
 
 --- task ---
-Click **run** to explore the finished project.
-
-▶️ **Play:** Type the name of a robot from the list and press **Enter**.
+▶️ Click **run** to explore the finished project below. 
 --- /task ---
 
 <div class="c-project-output">

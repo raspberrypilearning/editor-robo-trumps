@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Make a robots dictionary</h2>
 --- task ---
-Sort the robot details into categories so you can use them in your project.
+Sort the robot data so you can use it in your project.
 --- /task ---
 
 Use the code below to split the data in `cards.txt` and add to a **dictionary** so that you can use it to make your trump cards.

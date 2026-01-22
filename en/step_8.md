@@ -1,14 +1,9 @@
-<h2 class="c-project-heading--task">What you will make</h2>
+<h2 class="c-project-heading--task">Challenge: Add more stats to the robots</h2>
 --- task ---
-Create a robot card game where you compare stats to win.
+Think of more stats to add to the robots.
 --- /task ---
 
-
---- challenge ---
-
-## Challenge: Add more stats to the robots
-
-Can you think of more stats to add to the robots. You could add ‘speed’ or ‘usefulness’ or come up with your own ideas. 
+You could add ‘speed’ or ‘usefulness’ or come up with your own ideas. 
 
 You’ll need to:
 
@@ -23,5 +18,3 @@ Hint: Use `color('red')` to change the turtle's text to red before writing.
 Example: 
 
 ![screenshot](images/robotrumps-jet.png) 
-
---- /challenge ---
