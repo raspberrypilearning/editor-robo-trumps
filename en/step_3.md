@@ -18,7 +18,7 @@ line_highlights: 5, 9-11, 13
 ---
 from turtle import *
 from random import choice
-
+ 
 robots = {}  # Define dictionary
 
 file = open('cards.txt', 'r')
