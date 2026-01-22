@@ -1,15 +1,43 @@
-<h2 class="c-project-heading--task">What you will make</h2>
+<h2 class="c-project-heading--task">Add pictures</h2>
 --- task ---
-Create a robot card game where you compare stats to win.
+Make your designs come to life with pictures of your characters
 --- /task ---
 
+Show the image for your card. 
 
- step 6 
- dispaly the visuals
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 5, 9-11, 13
+---
+for line in file.read().splitlines():
+    name, battery, intelligence, image = line.split(',')  # Make into variables
+    robots[name] = [battery, intelligence, image]  # Add to dictionary
+    screen.register_shape(image)
 
-+ Now you're going to use the Python turtle to display the robot data. 
+print(robots)
 
-  Import the turtle library at the top of your script and setup the screen and turtle:
+while True:
+    robot = input("Choose a robot: ")
 
-  ![screenshot](images/robotrumps-turtle.png)
+    if robot in robots:
+        print(robot)
+        goto(0, 100)
+        shape(stats[4])
+        setheading(90)
+        stamp()
+        setheading(-90)
+        forward(60)
 
+    else:
+        print("Robot doesn't exist!")
+        
+
+--- /code ---
+--- task ---
+**Test:** Run the code. Is should show the images. Add your own images by editing the code and the cards.txt file.
+--- /task ---

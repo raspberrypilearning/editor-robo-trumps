@@ -3,16 +3,19 @@
 Create a robot card game where you compare stats to win.
 --- /task ---
 
---- challenge ---
 
-## Challenge: Add more robots
+## Display a random robot
 
-Can you add data about more robots to `cards.txt`. 
+Let’s add code so that you get a random robot when you type Random instead of a robot name.
 
-Click on the images button to see the robot images that you can use. 
++ First you'll need to import the choice function from the random module:
 
-You get to decide how much battery and intelligence they have.
+  ![screenshot](images/robotrumps-random.png)
+  
++ You can use `choice` to pick a random robot name from the list of keys from the robot dictionary. 
 
-![screenshot](images/robotrumps-yellow.png)
+  ![screenshot](images/robotrumps-choice.png)
+  
++ In Python 3 you need to use `list` to turn the results of `keys` into a list.
 
---- /challenge ---
+  Tip: Make sure you check your brackets carefully!
