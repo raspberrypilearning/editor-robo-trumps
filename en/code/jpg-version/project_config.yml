@@ -1,0 +1,4 @@
+name: "Robo trumps starter"
+identifier: 'editor-robo-trumps-jpg'
+type: 'python'
+build: true
