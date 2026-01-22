@@ -3,9 +3,9 @@
 Sort the robot details into categories so you can use them in your project.
 --- /task ---
 
-Split the data in `cards.txt` into separate pieces of data. Then add this data into a dictionary.
+Use the code below to split the data in `cards.txt` and add to a **dictionary** so that you can use it to make your trump cards.
 
-Before you start, comment out the `print()` line.
+Before you start, **comment out** the `print()` line.
 
 <div class="c-project-code">
 --- code ---

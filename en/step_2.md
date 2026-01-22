@@ -7,7 +7,9 @@ Open the file that stores data for different robots.
 Click the file icon in the project files window. Select **cards.txt** to open it in a new tab.
 --- /task ---
 
-Each robot has four pieces of data:
+![screenshot](images/robotrumps-cards.png)
+
+Each robot has some data:
 
 - name  
 - intelligence rating  
@@ -15,8 +17,6 @@ Each robot has four pieces of data:
 - image file name  
 
 The items are separated by commas in the file.
-
-![screenshot](images/robotrumps-cards.png)
 
 --- task ---
 Copy the code below to open the file in your project.
