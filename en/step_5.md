@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">Add pictures</h2>
 --- task ---
+
 Make your designs come to life with pictures of the robots
+
 --- /task ---
 
 Add the code below to display the image if the robot name is input.
@@ -17,6 +19,9 @@ line_highlights:
 ADD CODE
 
 --- /code ---
+
 --- task ---
+
 **Test:** Run the code and choose a robot to see the image. 
+
 --- /task ---

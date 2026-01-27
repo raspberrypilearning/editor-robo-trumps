@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">What you will make</h2>
 --- task ---
+
 Create a robot card game where you compare stats to win.
+
 --- /task ---
 
 <div class="c-project-output">
@@ -8,7 +10,9 @@ Create a robot card game where you compare stats to win.
 </div>
 
 --- task ---
+
 ▶️ Click **run** to explore the finished project below. 
+
 --- /task ---
 
 <div class="c-project-output">

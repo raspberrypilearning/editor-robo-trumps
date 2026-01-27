@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">Pick a robot</h2>
 --- task ---
+
 Ask players to choose a robot.
+
 --- /task ---
 
 Add a `while` loop below to get player input. 
@@ -28,13 +30,19 @@ while True:
     else:
         print("Robot doesn't exist!")  # If the robot doesn't exist then give an error
 --- /code ---
+
 --- task ---
+
 **Test:** Run the code. You should see a question in the **Text output** tab.
+
 --- /task ---
+
 </div>
 
 --- task ---
+
 Test your code by entering a robot name that is in the dictionary, and one that is not.
+
 --- /task ---
 
 <div class="c-project-output">

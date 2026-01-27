@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">Display stats</h2>
 --- task ---
+
 Style the stats text below the image
+
 --- /task ---
 
 Past the code below into your project. 
@@ -26,10 +28,13 @@ make sure you include
   color(black) 
   and clear()
 --- /code ---
+
 --- task ---
+
 **Test:** Run the code. 
 
-Play around with font, size and colours. 
+Play around with font, size and colours.
+
 --- /task ---
     
 

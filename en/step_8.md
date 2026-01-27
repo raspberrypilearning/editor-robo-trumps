@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">Challenge: Add more stats to the robots</h2>
 --- task ---
+
 Think of more stats to add to the robots.
+
 --- /task ---
 
 You could add ‘speed’ or ‘usefulness’ or come up with your own ideas. 

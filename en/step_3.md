@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">Make a robots dictionary</h2>
 --- task ---
+
 Sort the robot data so you can use it in your project.
+
 --- /task ---
 
 Use the code below to split the data in `cards.txt` and add to a **dictionary** so that you can use it to make your trump cards.
@@ -30,8 +32,11 @@ for line in file.read().splitlines():
 
 print(robots)
 --- /code ---
+
 --- task ---
+
 **Test:** Run the code. You should see a dictionary. Each robot name is a key, with its data stored as values.
+
 --- /task ---
 
 </div>

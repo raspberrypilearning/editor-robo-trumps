@@ -1,10 +1,14 @@
 <h2 class="c-project-heading--task">Open robot data file</h2>
 --- task ---
+
 Open the file that stores data for different robots.
+
 --- /task ---
 
 --- task ---
+
 Open **cards.txt** by clicking the file icon.
+
 --- /task ---
 
 ![screenshot](images/robotrumps-cards.png)
@@ -17,6 +21,8 @@ In the **cards.txt** file you can see that each robot has some data:
 - image file name  
 
 The items are separated by commas in the file.
+
+Copy the code below to open the file in your project.
 
 --- task ---
 Copy the code below to open the file in your project.
@@ -38,7 +44,9 @@ file = open('cards.txt', 'r')
 print(file.read())  # Print to test
 --- /code ---
 --- task ---
+
 **Test:** Run the code. You should see the cards data in the **Text output** tab.
+
 --- /task ---
 
 </div>
