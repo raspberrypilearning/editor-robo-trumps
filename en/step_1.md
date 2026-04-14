@@ -1,4 +1,5 @@
 <h2 class="c-project-heading--task">Open robot data file</h2>
+
 ### Step 1
 
 Open the file that stores data for different robots.

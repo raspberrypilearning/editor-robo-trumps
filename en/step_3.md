@@ -1,4 +1,5 @@
 <h2 class="c-project-heading--task">Pick a robot</h2>
+
 ### Step 1
 
 Ask players to choose a robot.

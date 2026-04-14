@@ -1,4 +1,5 @@
 <h2 class="c-project-heading--task">Display stats</h2>
+
 ### Step 1
 
 Style the stats text below the image

@@ -1,4 +1,5 @@
 <h2 class="c-project-heading--task">Add pictures</h2>
+
 ### Step 1
 
 Make your designs come to life with pictures of the robots
