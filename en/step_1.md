@@ -1,22 +1,53 @@
-<h2 class="c-project-heading--task">What you will make</h2>
---- task ---
+<h2 class="c-project-heading--task">Open robot data file</h2>
+### Step 1
 
-Create a robot card game where you compare stats to win.
+Open the file that stores data for different robots.
 
---- /task ---
 
-<div class="c-project-output">
-![Display of the final project output: a TV robot car vs a round robot card](images/robotrumps-finished.png){:width="300px"}
+### Step 2
+
+Open **cards.txt** by clicking the file icon.
+
+
+![screenshot](images/robotrumps-cards.png)
+
+In the **cards.txt** file you can see that each robot has some data:
+
+- name  
+- intelligence rating  
+- battery life  
+- image file name  
+
+The items are separated by commas in the file.
+
+Copy the code below to open the file in your project.
+
+### Step 3
+Copy the code below to open the file in your project.
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 4-5
+---
+from turtle import *
+from random import choice
+
+file = open('cards.txt', 'r')
+print(file.read())  # Print to test
+--- /code ---
+### Step 4
+
+**Test:** Run the code. You should see the cards data in the **Text output** tab.
+
+
 </div>
-
---- task ---
-
-▶️ Click **run** to explore the finished project below. 
-
---- /task ---
-
 <div class="c-project-output">
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-robo-trumps-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe>
+<pre>rainbow, 10, 34, rainbow.png
+space, 13, 28, space.png
+bird, 6, 4, bird.png</pre>
 </div>
-

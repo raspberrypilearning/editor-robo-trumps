@@ -1,12 +1,21 @@
-<h2 class="c-project-heading--task">Challenge: Add more robots</h2>
---- task ---
+<h2 class="c-project-heading--task">Challenge: Add more stats to the robots</h2>
+### Step 1
 
-Add data about more robots to `cards.txt`. 
+Think of more stats to add to the robots.
 
---- /task ---
 
-Click on the images button to see the robot images that you can use. 
+You could add ‘speed’ or ‘usefulness’ or come up with your own ideas. 
 
-You get to decide how much battery and intelligence they have.
+You’ll need to:
 
-![screenshot](images/robotrumps-yellow.png)
++ Add data to the file for each new category 
++ Add the new category to the code that read in the data
++ Write the new category out when you display a trump card
+
+You could even add a colour and show the stats for robots in their own color. 
+
+Hint: Use `color('red')` to change the turtle's text to red before writing. 
+
+Example: 
+
+![screenshot](images/robotrumps-jet.png)

@@ -1,32 +1,12 @@
-<h2 class="c-project-heading--task">Open robot data file</h2>
---- task ---
+<h2 class="c-project-heading--task">Make a robots dictionary</h2>
+### Step 1
 
-Open the file that stores data for different robots.
+Sort the robot data so you can use it in your project.
 
---- /task ---
 
---- task ---
+Use the code below to split the data in `cards.txt` and add to a **dictionary** so that you can use it to make your trump cards.
 
-Open **cards.txt** by clicking the file icon.
-
---- /task ---
-
-![screenshot](images/robotrumps-cards.png)
-
-In the **cards.txt** file you can see that each robot has some data:
-
-- name  
-- intelligence rating  
-- battery life  
-- image file name  
-
-The items are separated by commas in the file.
-
-Copy the code below to open the file in your project.
-
---- task ---
-Copy the code below to open the file in your project.
---- /task ---
+Before you start, **comment out** the `print()` line.
 
 <div class="c-project-code">
 --- code ---
@@ -35,24 +15,29 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 4-5
+line_highlights: 5, 9-11, 13
 ---
 from turtle import *
 from random import choice
+ 
+robots = {}  # Define dictionary
 
 file = open('cards.txt', 'r')
-print(file.read())  # Print to test
+# print(file.read())  # print to test
+
+for line in file.read().splitlines():
+    name, battery, intelligence, image = line.split(',')  # Make into variables
+    robots[name] = [battery, intelligence, image]  # Add to dictionary
+
+print(robots)
 --- /code ---
---- task ---
 
-**Test:** Run the code. You should see the cards data in the **Text output** tab.
+### Step 2
 
---- /task ---
+**Test:** Run the code. You should see a dictionary. Each robot name is a key, with its data stored as values.
+
 
 </div>
 <div class="c-project-output">
-<pre>rainbow, 10, 34, rainbow.png
-space, 13, 28, space.png
-bird, 6, 4, bird.png</pre>
+<pre>{'rainbow': [' 10', ' 34', ' rainbow.png'], 'space': [' 13', ' 28', ' space.png'], 'bird': [' 6', ' 4', ' bird.png']}</pre>
 </div>
-

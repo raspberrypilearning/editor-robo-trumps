@@ -1,11 +1,16 @@
-<h2 class="c-project-heading--task">Add pictures</h2>
---- task ---
+<h2 class="c-project-heading--task">Display stats</h2>
+### Step 1
 
-Make your designs come to life with pictures of the robots
+Style the stats text below the image
 
---- /task ---
 
-Add the code below to display the image if the robot name is input.
+Past the code below into your project. 
+
+To style it, you can change the font. Instead of `Arial` you could try: `Courier`, `Times` or `Verdana`. 
+
+Change `14` to a different number to change the size of the font, and you can change `bold` to `normal` or `italic`. 
+
+Change `color()` to a colour.
 
 <div class="c-project-code">
 --- code ---
@@ -18,10 +23,13 @@ line_highlights:
 ---
 ADD CODE
 
+make sure you include
+  color(black) 
+  and clear()
 --- /code ---
 
---- task ---
+### Step 2
 
-**Test:** Run the code and choose a robot to see the image. 
+**Test:** Run the code. 
 
---- /task ---
+Play around with font, size and colours.

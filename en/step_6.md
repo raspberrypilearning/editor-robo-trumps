@@ -1,41 +1,11 @@
-<h2 class="c-project-heading--task">Display stats</h2>
---- task ---
+<h2 class="c-project-heading--task">Challenge: Add more robots</h2>
+### Step 1
 
-Style the stats text below the image
+Add data about more robots to `cards.txt`. 
 
---- /task ---
 
-Past the code below into your project. 
+Click on the images button to see the robot images that you can use. 
 
-To style it, you can change the font. Instead of `Arial` you could try: `Courier`, `Times` or `Verdana`. 
+You get to decide how much battery and intelligence they have.
 
-Change `14` to a different number to change the size of the font, and you can change `bold` to `normal` or `italic`. 
-
-Change `color()` to a colour.
-
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 
----
-ADD CODE
-
-make sure you include
-  color(black) 
-  and clear()
---- /code ---
-
---- task ---
-
-**Test:** Run the code. 
-
-Play around with font, size and colours.
-
---- /task ---
-    
-
-  
+![screenshot](images/robotrumps-yellow.png)

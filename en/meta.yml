@@ -16,19 +16,19 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
+landing: true
 steps:
-- title: Step 1
-- title: Step 2
-- title: Step 3
-  completion:
-  - engaged
-- title: Step 4
-- title: Step 5
-- title: Step 6
-- title: Step 7
-- title: Step 8
-  completion:
-  - internal
-- title: Step 9
-  completion:
-  - external
+  - title: Open robot data file
+  - title: Make a robots dictionary
+    completion:
+      - engaged
+  - title: Pick a robot
+  - title: Add pictures
+  - title: Display stats
+  - title: "Challenge: Add more robots"
+  - title: "Challenge: Add more stats to the robots"
+    completion:
+      - internal
+  - title: Display a random robot
+    completion:
+      - external
