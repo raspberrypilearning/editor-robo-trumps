@@ -1,9 +1,8 @@
 <h2 class="c-project-heading--task">Add pictures</h2>
 
-### Step 1
-
 Make your designs come to life with pictures of the robots
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Add the code below to display the image if the robot name is input.
 
@@ -20,6 +19,10 @@ ADD CODE
 
 --- /code ---
 
-### Step 2
+</div>
 
-**Test:** Run the code and choose a robot to see the image.
+## Now run your code
+
+Choose a robot to see the image.
+
+Confirm the observable result.

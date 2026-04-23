@@ -1,17 +1,17 @@
 <h2 class="c-project-heading--task">Open robot data file</h2>
 
-### Step 1
-
 Open the file that stores data for different robots.
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-### Step 2
+## Step 1
 
 Open **cards.txt** by clicking the file icon.
 
 
+<div class="c-project-output">
 ![screenshot](images/robotrumps-cards.png)
-
+</div>
 In the **cards.txt** file you can see that each robot has some data:
 
 - name  
@@ -23,7 +23,8 @@ The items are separated by commas in the file.
 
 Copy the code below to open the file in your project.
 
-### Step 3
+## Step 2
+
 Copy the code below to open the file in your project.
 
 <div class="c-project-code">
@@ -41,14 +42,16 @@ from random import choice
 file = open('cards.txt', 'r')
 print(file.read())  # Print to test
 --- /code ---
-### Step 4
-
-**Test:** Run the code. You should see the cards data in the **Text output** tab.
-
 
 </div>
+
+## Now run your code
+
+You should see the cards data in the **Text output** tab.
 <div class="c-project-output">
 <pre>rainbow, 10, 34, rainbow.png
 space, 13, 28, space.png
 bird, 6, 4, bird.png</pre>
 </div>
+
+Confirm the observable result.

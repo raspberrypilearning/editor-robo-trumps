@@ -1,9 +1,8 @@
 <h2 class="c-project-heading--task">Display stats</h2>
 
-### Step 1
-
 Style the stats text below the image
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Past the code below into your project. 
 
@@ -29,8 +28,10 @@ make sure you include
   and clear()
 --- /code ---
 
-### Step 2
+</div>
 
-**Test:** Run the code. 
+## Now run your code
 
 Play around with font, size and colours.
+
+Confirm the observable result.

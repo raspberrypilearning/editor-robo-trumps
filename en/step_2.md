@@ -1,9 +1,8 @@
 <h2 class="c-project-heading--task">Make a robots dictionary</h2>
 
-### Step 1
-
 Sort the robot data so you can use it in your project.
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Use the code below to split the data in `cards.txt` and add to a **dictionary** so that you can use it to make your trump cards.
 
@@ -33,12 +32,13 @@ for line in file.read().splitlines():
 print(robots)
 --- /code ---
 
-### Step 2
-
-**Test:** Run the code. You should see a dictionary. Each robot name is a key, with its data stored as values.
-
-
 </div>
+
+## Now run your code
+
+You should see a dictionary. Each robot name is a key, with its data stored as values.
 <div class="c-project-output">
 <pre>{'rainbow': [' 10', ' 34', ' rainbow.png'], 'space': [' 13', ' 28', ' space.png'], 'bird': [' 6', ' 4', ' bird.png']}</pre>
 </div>
+
+Confirm the observable result.

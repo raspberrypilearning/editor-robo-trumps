@@ -1,9 +1,8 @@
 <h2 class="c-project-heading--task">Challenge: Add more stats to the robots</h2>
 
-### Step 1
-
 Think of more stats to add to the robots.
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 You could add ‘speed’ or ‘usefulness’ or come up with your own ideas. 
 
@@ -19,4 +18,10 @@ Hint: Use `color('red')` to change the turtle's text to red before writing.
 
 Example: 
 
+<div class="c-project-output">
 ![screenshot](images/robotrumps-jet.png)
+</div>
+
+## Now run your code
+
+Confirm the observable result.

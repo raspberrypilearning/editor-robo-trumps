@@ -1,9 +1,8 @@
 <h2 class="c-project-heading--task">Pick a robot</h2>
 
-### Step 1
-
 Ask players to choose a robot.
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Add a `while` loop below to get player input. 
 
@@ -31,14 +30,11 @@ while True:
         print("Robot doesn't exist!")  # If the robot doesn't exist then give an error
 --- /code ---
 
-### Step 2
-
-**Test:** Run the code. You should see a question in the **Text output** tab.
-
-
 </div>
 
-### Step 3
+## Now run your code
+
+You should see a question in the **Text output** tab.
 
 Test your code by entering a robot name that is in the dictionary, and one that is not.
 
@@ -50,3 +46,5 @@ space
 Choose a robot: 
 random
 Robot doesn't exist!</pre></div>
+
+Confirm the observable result.
