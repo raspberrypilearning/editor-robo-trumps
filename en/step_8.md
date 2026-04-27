@@ -10,4 +10,4 @@ ADD CODE
 
 ## Now run your code
 
-Confirm the observable result.
+Type `Random` and check that a random robot is displayed.

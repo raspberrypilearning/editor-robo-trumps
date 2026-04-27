@@ -54,4 +54,4 @@ space, 13, 28, space.png
 bird, 6, 4, bird.png</pre>
 </div>
 
-Confirm the observable result.
+Run your code and check that the cards data is printed in **Text output**.

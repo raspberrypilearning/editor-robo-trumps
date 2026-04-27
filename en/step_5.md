@@ -34,4 +34,4 @@ make sure you include
 
 Play around with font, size and colours.
 
-Confirm the observable result.
+Choose a robot and check that its name and stats appear in the text style and colour you chose.

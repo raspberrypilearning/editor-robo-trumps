@@ -47,4 +47,4 @@ Choose a robot:
 random
 Robot doesn't exist!</pre></div>
 
-Confirm the observable result.
+Run your code and check that you are asked to choose a robot, and that unknown names show an error message.

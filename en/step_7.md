@@ -24,4 +24,4 @@ Example:
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that the extra stat or colour you added appears on the robot card.

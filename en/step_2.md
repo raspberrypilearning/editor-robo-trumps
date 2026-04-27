@@ -41,4 +41,4 @@ You should see a dictionary. Each robot name is a key, with its data stored as v
 <pre>{'rainbow': [' 10', ' 34', ' rainbow.png'], 'space': [' 13', ' 28', ' space.png'], 'bird': [' 6', ' 4', ' bird.png']}</pre>
 </div>
 
-Confirm the observable result.
+Run your code and check that a dictionary of robot names and data is printed.

@@ -14,4 +14,4 @@ You get to decide how much battery and intelligence they have.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that any extra robots you added can be chosen and displayed.

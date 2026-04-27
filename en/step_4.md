@@ -25,4 +25,4 @@ ADD CODE
 
 Choose a robot to see the image.
 
-Confirm the observable result.
+Choose a robot and check that its image appears.
