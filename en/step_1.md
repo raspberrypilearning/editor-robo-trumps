@@ -1,45 +1,57 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Open robot data file</h2>
 
-A brief description - one or two sentences. 
+Open the file that stores data for different robots.
 
---- print-only ---
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-![ALT TEXT](images/IMAGE.png)
+## Step 1
 
---- /print-only ---
+Open **cards.txt** by clicking the file icon.
 
---- no-print ---
 
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
+<div class="c-project-output">
+![screenshot](images/robotrumps-cards.png)
+</div>
+In the **cards.txt** file you can see that each robot has some data:
 
---- /no-print ---
+- name  
+- intelligence rating  
+- battery life  
+- image file name  
 
---- no-print ---
+The items are separated by commas in the file.
 
-Video embed
+Copy the code below to open the file in your project.
 
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
+## Step 2
 
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
+Copy the code below to open the file in your project.
 
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 4-5
+---
+from turtle import *
+from random import choice
+
+file = open('cards.txt', 'r')
+print(file.read())  # Print to test
+--- /code ---
+
 </div>
 
---- /no-print ---
+## Now run your code
 
-### You will need:
-- a
-- b
-- c
+You should see the cards data in the **Text output** tab.
+<div class="c-project-output">
+<pre>rainbow, 10, 34, rainbow.png
+space, 13, 28, space.png
+bird, 6, 4, bird.png</pre>
+</div>
+
+Run your code and check that the cards data is printed in **Text output**.

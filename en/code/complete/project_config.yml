@@ -1,0 +1,4 @@
+name: "Robo trumps complete"
+identifier: 'editor-robo-trumps-complete'
+type: 'python'
+build: true
